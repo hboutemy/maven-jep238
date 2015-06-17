@@ -46,7 +46,7 @@
     <dependencies>
         <dependency>
             <groupId>multiversion</groupId>
-            <artifactId>version-nine</artifactId>
+            <artifactId>multiversion-nine</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>

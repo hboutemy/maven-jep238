@@ -10,7 +10,7 @@
         <version>0.8-SNAPSHOT</version>
     </parent>
 
-    <artifactId>version-nine</artifactId>
+    <artifactId>multiversion-nine</artifactId>
 
     <name>Version 9</name>
 
@@ -21,7 +21,7 @@
     <dependencies>
         <dependency>
             <groupId>multiversion</groupId>
-            <artifactId>version-eight</artifactId>
+            <artifactId>multiversion-eight</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>

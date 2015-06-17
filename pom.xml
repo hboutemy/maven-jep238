@@ -21,9 +21,9 @@
     </properties>
 
     <modules>
-        <module>base</module>
-        <module>version-eight</module>
-        <module>version-nine</module>
+        <module>multiversion-base</module>
+        <module>multiversion-eight</module>
+        <module>multiversion-nine</module>
         <module>multiversion</module>
     </modules>
 

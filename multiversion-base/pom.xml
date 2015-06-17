@@ -10,7 +10,7 @@
         <version>0.8-SNAPSHOT</version>
     </parent>
 
-    <artifactId>base</artifactId>
+    <artifactId>multiversion-base</artifactId>
 
     <name>Base</name>
 </project>
