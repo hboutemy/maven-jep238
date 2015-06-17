@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>multiversion</groupId>
 
-    <artifactId>multiversion</artifactId>
+    <artifactId>multiversion-parent</artifactId>
     <version>0.8-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -16,7 +16,7 @@
         <module>base</module>
         <module>version-eight</module>
         <module>version-nine</module>
-        <module>distribution</module>
+        <module>multiversion</module>
     </modules>
 
 </project>

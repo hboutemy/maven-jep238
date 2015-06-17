@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>multiversion</groupId>
-        <artifactId>multiversion</artifactId>
+        <artifactId>multiversion-parent</artifactId>
         <version>0.8-SNAPSHOT</version>
     </parent>
 
