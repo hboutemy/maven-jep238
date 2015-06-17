@@ -1,8 +1,15 @@
 target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
+.project
+.classpath
+.settings/
+.svn/
+bin/
+# Intellij
+*.ipr
+*.iml
+.idea
+out/
+.DS_Store
+/bootstrap
+/dependencies.xml
+.java-version
