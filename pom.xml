@@ -17,7 +17,6 @@
         <javaVersion>7</javaVersion>
         <maven.compiler.source>1.${javaVersion}</maven.compiler.source>
         <maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
-        <maven.install.skip>true</maven.install.skip>
     </properties>
 
     <modules>

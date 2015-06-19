@@ -12,7 +12,7 @@
 
     <artifactId>multiversion</artifactId>
 
-    <name>Distribution</name>
+    <name>Distribution multiversion jar</name>
 
     <properties>
         <maven.install.skip>false</maven.install.skip>
@@ -42,11 +42,6 @@
         </plugins>
     </build>
 
-    <dependencies>
-        <dependency>
-            <groupId>multiversion</groupId>
-            <artifactId>multiversion-nine</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+    <dependencies><!-- add multiversion-base dependencies if any -->
     </dependencies>
 </project>
