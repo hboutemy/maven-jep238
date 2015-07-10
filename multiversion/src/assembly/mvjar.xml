@@ -26,6 +26,11 @@
         <outputDirectory>META-INF/versions/8</outputDirectory>
         <unpack>true</unpack>
         <includeDependencies>false</includeDependencies>
+        <unpackOptions>
+          <excludes>
+            <exclude>/META-INF/**</exclude>
+          </excludes>
+        </unpackOptions>
       </binaries>
     </moduleSet>
     <moduleSet>
@@ -37,6 +42,11 @@
         <outputDirectory>META-INF/versions/9</outputDirectory>
         <unpack>true</unpack>
         <includeDependencies>false</includeDependencies>
+        <unpackOptions>
+          <excludes>
+            <exclude>/META-INF/**</exclude>
+          </excludes>
+        </unpackOptions>
       </binaries>
     </moduleSet>
   </moduleSets>
