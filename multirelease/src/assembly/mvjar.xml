@@ -10,7 +10,7 @@
     <moduleSet>
       <useAllReactorProjects>true</useAllReactorProjects>
       <includes>
-        <include>multiversion:multiversion-base</include>
+        <include>multirelease:multirelease-base</include>
       </includes>
       <binaries>
         <unpack>true</unpack>
@@ -20,7 +20,7 @@
     <moduleSet>
       <useAllReactorProjects>true</useAllReactorProjects>
       <includes>
-        <include>multiversion:multiversion-eight</include>
+        <include>multirelease:multirelease-eight</include>
       </includes>
       <binaries>
         <outputDirectory>META-INF/versions/8</outputDirectory>
@@ -36,7 +36,7 @@
     <moduleSet>
       <useAllReactorProjects>true</useAllReactorProjects>
       <includes>
-        <include>multiversion:multiversion-nine</include>
+        <include>multirelease:multirelease-nine</include>
       </includes>
       <binaries>
         <outputDirectory>META-INF/versions/9</outputDirectory>

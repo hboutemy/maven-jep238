@@ -5,14 +5,14 @@
                              http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>multiversion</groupId>
-        <artifactId>multiversion-parent</artifactId>
+        <groupId>multirelease</groupId>
+        <artifactId>multirelease-parent</artifactId>
         <version>0.8-SNAPSHOT</version>
     </parent>
 
-    <artifactId>multiversion</artifactId>
+    <artifactId>multirelease</artifactId>
 
-    <name>Distribution multiversion jar</name>
+    <name>Distribution multirelease jar</name>
 
     <properties>
         <maven.install.skip>false</maven.install.skip>
@@ -29,6 +29,13 @@
                         <descriptor>src/assembly/mvjar.xml</descriptor>
                     </descriptors>
                 </configuration>
+                <dependencies>
+                  <dependency>
+                    <groupId>org.codehaus.plexus</groupId>
+                    <artifactId>plexus-archiver</artifactId>
+                    <version>3.0.3-SNAPSHOT</version>
+                  </dependency>
+                </dependencies>
                 <executions>
                     <execution>
                         <id>make-assembly</id>

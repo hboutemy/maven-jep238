@@ -5,12 +5,12 @@
                              http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>multiversion</groupId>
-        <artifactId>multiversion-parent</artifactId>
+        <groupId>multirelease</groupId>
+        <artifactId>multirelease-parent</artifactId>
         <version>0.8-SNAPSHOT</version>
     </parent>
 
-    <artifactId>multiversion-base</artifactId>
+    <artifactId>multirelease-base</artifactId>
 
     <name>Base</name>
 
