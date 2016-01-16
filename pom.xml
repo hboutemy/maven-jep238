@@ -4,14 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
                              http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>multiversion</groupId>
+    <groupId>multirelease</groupId>
 
-    <artifactId>multiversion-parent</artifactId>
+    <artifactId>multirelease-parent</artifactId>
     <version>0.8-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>Multiversion Project</name>
-    <description>This is a demo project for JEP 238 Multi Version jar buiding with Maven.</description>
+    <name>Multi-Release Project</name>
+    <description>This is a demo project for JEP 238: Multi-Release JAR buiding with Maven. See also http://openjdk.java.net/jeps/238</description>
 
     <properties>
         <javaVersion>7</javaVersion>
@@ -20,10 +20,10 @@
     </properties>
 
     <modules>
-        <module>multiversion-base</module>
-        <module>multiversion-eight</module>
-        <module>multiversion-nine</module>
-        <module>multiversion</module>
+        <module>multirelease-base</module>
+        <module>multirelease-eight</module>
+        <module>multirelease-nine</module>
+        <module>multirelease</module>
     </modules>
 
 </project>

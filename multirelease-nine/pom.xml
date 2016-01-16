@@ -5,12 +5,12 @@
                              http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>multiversion</groupId>
-        <artifactId>multiversion-parent</artifactId>
+        <groupId>multirelease</groupId>
+        <artifactId>multirelease-parent</artifactId>
         <version>0.8-SNAPSHOT</version>
     </parent>
 
-    <artifactId>multiversion-nine</artifactId>
+    <artifactId>multirelease-nine</artifactId>
 
     <name>Version 9</name>
 
@@ -21,8 +21,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>multiversion</groupId>
-            <artifactId>multiversion-eight</artifactId>
+            <groupId>multirelease</groupId>
+            <artifactId>multirelease-eight</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>
