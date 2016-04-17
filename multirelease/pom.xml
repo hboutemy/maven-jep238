@@ -26,7 +26,7 @@
                 <configuration>
                     <appendAssemblyId>false</appendAssemblyId>
                     <descriptors>
-                        <descriptor>src/assembly/mvjar.xml</descriptor>
+                        <descriptor>src/assembly/mrjar.xml</descriptor>
                     </descriptors>
                 </configuration>
                 <dependencies>
@@ -49,6 +49,6 @@
         </plugins>
     </build>
 
-    <dependencies><!-- add multiversion-base dependencies if any -->
+    <dependencies><!-- add multirelease-base dependencies if any -->
     </dependencies>
 </project>

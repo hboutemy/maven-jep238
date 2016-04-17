@@ -24,7 +24,7 @@
  */
 package base;
 
-import mv.A;
+import mr.A;
 
 public class Base {
     public static void main(String[] args) {
