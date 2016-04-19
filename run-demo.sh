@@ -29,6 +29,7 @@ j9
 run mvn -V clean package
 
 unzip -t multirelease/target/*.jar | grep -v "/ " | grep -v "maven"
+run unzip -p multirelease/target/*.jar META-INF/MANIFEST.MF
 
 enter
 

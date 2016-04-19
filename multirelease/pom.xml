@@ -28,6 +28,11 @@
                     <descriptors>
                         <descriptor>src/assembly/mrjar.xml</descriptor>
                     </descriptors>
+                    <archive>
+                        <manifestEntries>
+                            <Multi-Release>true</Multi-Release>
+                        </manifestEntries>
+                    </archive>
                 </configuration>
                 <dependencies>
                   <dependency>
